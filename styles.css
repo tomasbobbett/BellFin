@@ -178,7 +178,7 @@ input[type="checkbox"]{
     position: absolute;
     height: 100dvh;
     width: 100%;
-    background: linear-gradient(#1d1d1de5, #161616);
+    background: linear-gradient(#181818e5, #161616);
 }
 .main__portada::before {
     content: '';
