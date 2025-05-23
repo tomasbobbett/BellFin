@@ -292,7 +292,7 @@ input[type="checkbox"]{
     grid-area: name;
 }
 .contacto__form input:nth-child(3){
-    grid-area: surname;
+    grid-area: surname
 }
 
 .contacto__form input:nth-child(4){
