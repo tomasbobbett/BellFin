@@ -285,26 +285,26 @@ input[type="checkbox"]{
     padding: 10px;
     border-radius: 10px;
 }
-.contacto__form input:first-child{
+.contacto__form input:nth-child(2){
     grid-area: mail;
 }
-.contacto__form input:nth-child(2){
+.contacto__form input:nth-child(3){
     grid-area: name;
 }
-.contacto__form input:nth-child(3){
+.contacto__form input:nth-child(4){
     grid-area: surname
 }
 
-.contacto__form input:nth-child(4){
+.contacto__form input:nth-child(5){
     grid-area: message;
     height: 100px;
 }
-.contacto__form input:nth-child(4)::placeholder{
+.contacto__form input:nth-child(6)::placeholder{
     display: flex;
     justify-content: center;
     align-items: start ;
 }
-.contacto__form input:nth-child(5){
+.contacto__form input:nth-child(6){
     grid-area: sumbit;
     text-align: center;
     border-radius: 10px;
