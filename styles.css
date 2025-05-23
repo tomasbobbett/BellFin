@@ -14,7 +14,6 @@ body,h1,h2,h3,h4,h5,h6,div,img, p, a{
 
 .header{
     margin: 0;
-    background-color: #000000d2;
     width: 100%;
     height: 55px;
     display: flex;
@@ -153,7 +152,7 @@ input[type="checkbox"]{
     position: absolute;
     height: 100dvh;
     width: 100%;
-    background: linear-gradient(#1d1d1de5, #1d1d1d);
+    background: linear-gradient(#1d1d1de5, #161616);
 }
 .main__portada::before {
     content: '';
@@ -220,7 +219,7 @@ input[type="checkbox"]{
     height: 100%;
     width: 100%;
     position: absolute;
-    background: linear-gradient(#1d1d1d,#000000c6,#000000);
+    background: linear-gradient(#161616,#000000c6,#000000);
     z-index: 15;
 }
 
@@ -253,4 +252,66 @@ input[type="checkbox"]{
     font-weight: 500;
     line-height: 30px;
     text-wrap: pretty;
+}
+
+/*------CONTACTO SECTION------*/
+.main__contacto{
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-direction: column;
+    background: linear-gradient(#0b1627,#060b13);
+}
+.contacto__title{
+    color: white;
+}
+.contacto__form{
+    box-shadow: 0 0 10px #48e;
+    border: solid 1px #48e;
+    padding: 20px;
+    display: grid;
+    gap: 15px;
+    grid-template-areas   :
+     "mail mail"
+     "name surname"
+     "message message"
+     "sumbit sumbit";
+    border-radius: 10px;
+}
+.contacto__form__item{
+    padding: 10px;
+    border-radius: 10px;
+}
+.contacto__form input:first-child{
+    grid-area: mail;
+}
+.contacto__form input:nth-child(2){
+    grid-area: name;
+}
+.contacto__form input:nth-child(3){
+    grid-area: surname;
+}
+
+.contacto__form input:nth-child(4){
+    grid-area: message;
+    height: 100px;
+}
+.contacto__form input:nth-child(4)::placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: start ;
+}
+.contacto__form input:nth-child(5){
+    grid-area: sumbit;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #48e;
+    border: none;
+    padding: 10px;
+    color: white    ;
+    font-family: inherit;
+    font-weight: 600;
 }
