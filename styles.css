@@ -176,8 +176,8 @@ input[type="checkbox"]{
     padding: 10px 15px 10px 15px;
     font-weight: 800;
     text-decoration: none ;
-    border: solid rgb(255, 199, 46) 0.8px;
-    filter: drop-shadow(1px 10px 10px  rgba(255, 199, 46, 0.253) );
+    border: solid #48e 0.8px;
+    filter: drop-shadow(1px 10px 10px  rgba(103, 157, 238, 0.267) );
     color: black;
 }
 .main__portada__subtitle{
