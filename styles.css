@@ -161,10 +161,23 @@ input[type="checkbox"]{
     color: white;
     font-size: clamp(3rem, 6vw, 4rem);
     letter-spacing: 2px;
+    padding: 0;
+    margin-top: 44px;
+    line-height: 0.8;
     z-index: 20;
     text-align: center;
-    margin-top: 44px;
     
+}
+.main__portada__button{
+    z-index: 20;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 16px 10px 16px;
+    font-weight: 800;
+    text-decoration: none ;
+    border: solid rgb(255, 199, 46) 0.8px;
+    color: black;
 }
 .main__portada__subtitle{
     color: #aaa;
