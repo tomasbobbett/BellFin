@@ -36,9 +36,10 @@ body,h1,h2,h3,h4,h5,h6,div,img, p, a{
     justify-content: right;
     padding: 0;
     margin: 0;
-  
+    
 }
 .nav__list{
+    gap: 16px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -153,7 +154,7 @@ input[type="checkbox"]{
     justify-content: center;
     align-items: center;
     font-size: 2.5rem;
-    gap: 20px;
+    gap: 25px;
     
    
 }
@@ -170,15 +171,15 @@ input[type="checkbox"]{
 }
 .main__portada__button{
     z-index: 20;
-    background-color: white;
+    background-color: #48e;
     border-radius: 20px;
     font-size: clamp(1rem, 4vw, 1.5rem);
     padding: 10px 15px 10px 15px;
-    font-weight: 800;
+    font-weight: 700;
     text-decoration: none ;
     border: solid #48e 0.8px;
-    filter: drop-shadow(1px 10px 10px  rgba(103, 157, 238, 0.267) );
-    color: black;
+    filter: drop-shadow(1px 10px 10px  rgba(103, 157, 238, 0.137) );
+    color: white;
 }
 .main__portada__subtitle{
     color: #aaa;
@@ -311,7 +312,8 @@ input[type="checkbox"]{
 }
 .contacto__form{
     box-shadow: 0 0 10px #48e;
-    border: solid 1px #48e;
+    border: solid 1px rgb(11, 81, 187);
+    background:linear-gradient(#07224b,#060b13) ;
     padding: 20px;
     display: grid;
     gap: 15px;
