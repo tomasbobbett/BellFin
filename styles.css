@@ -173,12 +173,11 @@ input[type="checkbox"]{
     z-index: 20;
     background-color: #48e;
     border-radius: 20px;
-    font-size: clamp(1rem, 4vw, 1.5rem);
-    padding: 10px 15px 10px 15px;
+    font-size: clamp(1rem, 4vw, 1.3rem);
+    padding: 12px 17px 12px 17px;
     font-weight: 700;
     text-decoration: none ;
     border: solid #48e 0.8px;
-    filter: drop-shadow(1px 10px 10px  rgba(103, 157, 238, 0.137) );
     color: white;
 }
 .main__portada__subtitle{
